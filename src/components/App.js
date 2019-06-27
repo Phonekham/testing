@@ -6,6 +6,7 @@ export default () => {
   return (
     <div>
       <CommentBox />
+      <CommentBox />
       <CommentList />
     </div>
   );
