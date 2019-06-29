@@ -11,7 +11,7 @@ beforeEach(() => {
 });
 
 it("it shows a comment box", () => {
-  expect(wrapped.find(CommentBox).length).toEqual(2);
+  expect(wrapped.find(CommentBox).length).toEqual(1);
 });
 
 it("Show a comment list", () => {
